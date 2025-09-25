@@ -17,7 +17,7 @@ const __dirname = path.resolve();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://video-stream-app-952d.onrender.com",
     credentials: true, // allow frontend to send cookies
   })
 );
